@@ -1,0 +1,15 @@
+C:\Users\B166ER\Desktop\Project\backenddevproject\LenaBackend\Entity\bin\Debug\net6.0\Entity.deps.json
+C:\Users\B166ER\Desktop\Project\backenddevproject\LenaBackend\Entity\bin\Debug\net6.0\Entity.dll
+C:\Users\B166ER\Desktop\Project\backenddevproject\LenaBackend\Entity\bin\Debug\net6.0\Entity.pdb
+C:\Users\B166ER\Desktop\Project\backenddevproject\LenaBackend\Entity\bin\Debug\net6.0\Core.dll
+C:\Users\B166ER\Desktop\Project\backenddevproject\LenaBackend\Entity\bin\Debug\net6.0\Core.pdb
+C:\Users\B166ER\Desktop\Project\backenddevproject\LenaBackend\Entity\obj\Debug\net6.0\Entity.csproj.AssemblyReference.cache
+C:\Users\B166ER\Desktop\Project\backenddevproject\LenaBackend\Entity\obj\Debug\net6.0\Entity.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\B166ER\Desktop\Project\backenddevproject\LenaBackend\Entity\obj\Debug\net6.0\Entity.AssemblyInfoInputs.cache
+C:\Users\B166ER\Desktop\Project\backenddevproject\LenaBackend\Entity\obj\Debug\net6.0\Entity.AssemblyInfo.cs
+C:\Users\B166ER\Desktop\Project\backenddevproject\LenaBackend\Entity\obj\Debug\net6.0\Entity.csproj.CoreCompileInputs.cache
+C:\Users\B166ER\Desktop\Project\backenddevproject\LenaBackend\Entity\obj\Debug\net6.0\Entity.csproj.CopyComplete
+C:\Users\B166ER\Desktop\Project\backenddevproject\LenaBackend\Entity\obj\Debug\net6.0\Entity.dll
+C:\Users\B166ER\Desktop\Project\backenddevproject\LenaBackend\Entity\obj\Debug\net6.0\refint\Entity.dll
+C:\Users\B166ER\Desktop\Project\backenddevproject\LenaBackend\Entity\obj\Debug\net6.0\Entity.pdb
+C:\Users\B166ER\Desktop\Project\backenddevproject\LenaBackend\Entity\obj\Debug\net6.0\ref\Entity.dll

@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Business.Abstract;
+using Microsoft.AspNetCore.Mvc;
 using MVCApp.Models;
 using System.Diagnostics;
 
@@ -6,11 +7,21 @@ namespace MVCApp.Controllers
 {
     public class HomeController : Controller
     {
-        private readonly ILogger<HomeController> _logger;
+        IUserService _userService;
 
-        public HomeController(ILogger<HomeController> logger)
+        public HomeController(IUserService userService)
         {
-            _logger = logger;
+            _userService = userService;
+        }
+
+
+        [HttpGet("getall")]
+        public IActionResult Get() {
+            var result = _userService.GetByEmail("mumaru171@gmaiil.com");
+            if (result == null) {
+                return BadRequest("Bulunamadı");
+            }
+            return Ok(result);
         }
 
         public IActionResult Index()
@@ -23,10 +34,7 @@ namespace MVCApp.Controllers
             return View();
         }
 
-        [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
-        public IActionResult Error()
-        {
-            return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
-        }
+        
+
     }
 }
