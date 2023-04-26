@@ -1,6 +1,5 @@
 ﻿using Business.Abstract;
 using Microsoft.AspNetCore.Mvc;
-using MVCApp.Models;
 using System.Diagnostics;
 
 namespace MVCApp.Controllers
@@ -17,7 +16,7 @@ namespace MVCApp.Controllers
 
         [HttpGet("getall")]
         public IActionResult Get() {
-            var result = _userService.GetByEmail("mumaru171@gmaiil.com");
+            var result = _userService.GetUser("mumaru171@gmaiil.com");
             if (result == null) {
                 return BadRequest("Bulunamadı");
             }

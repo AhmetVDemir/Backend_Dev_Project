@@ -18,6 +18,11 @@ namespace DataAccess.Concrete.EFCore
         }
 
         public DbSet<User> Users { get; set; }
+
+        public DbSet<BaseForm> Forms { get; set; }
+
+        public DbSet<Field> Fields { get; set; }
+
     }
 }
  

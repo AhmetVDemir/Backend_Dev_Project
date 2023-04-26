@@ -18,14 +18,16 @@ namespace Business.Concrete
             _userDal = userDal;
         }
 
-        public void Add(User user)
+        public User GetUser(string email)
         {
-            _userDal.Add(user);
-        }
-
-        public User GetByEmail(string email)
-        {
-            return _userDal.Get(u=>u.Email == email);
+            try
+            {
+                return _userDal.Get(y => y.Email == email);
+            }
+            catch
+            {
+                return null;
+            }
         }
     }
 }

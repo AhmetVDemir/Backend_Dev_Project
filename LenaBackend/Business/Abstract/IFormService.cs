@@ -7,8 +7,10 @@ using System.Threading.Tasks;
 
 namespace Business.Abstract
 {
-    public interface IUserService
+    public interface IFormService
     {
-        User GetUser(string email);
+        List<Form> getFormsbyUser(int id);
+        BaseForm getFormById(int id);
+        Form saveFormtoDb(Form form);
     }
 }

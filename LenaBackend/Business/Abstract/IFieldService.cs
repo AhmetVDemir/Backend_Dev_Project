@@ -7,8 +7,10 @@ using System.Threading.Tasks;
 
 namespace Business.Abstract
 {
-    public interface IUserService
+    public interface IFieldService
     {
-        User GetUser(string email);
+        void SaveFieldsToDb(List<Field> fields);
+
+        List<Field> GetAllFieldsByFormId(int formId);
     }
 }
