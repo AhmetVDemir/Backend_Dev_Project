@@ -16,16 +16,24 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\B166ER\Desktop\Project\backenddevproject\LenaBackend\MVCApp
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/B166ER/Desktop/Project/backenddevproject/LenaBackend/MVCApp/Views/Auth/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/B166ER/Desktop/Project/backenddevproject/LenaBackend/MVCApp/Views/Forms/AddForm.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRm9ybXNcQWRkRm9ybS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/B166ER/Desktop/Project/backenddevproject/LenaBackend/MVCApp/Views/Forms/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRm9ybXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/B166ER/Desktop/Project/backenddevproject/LenaBackend/MVCApp/Views/Home/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxFcnJvci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/B166ER/Desktop/Project/backenddevproject/LenaBackend/MVCApp/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/B166ER/Desktop/Project/backenddevproject/LenaBackend/MVCApp/Views/Home/Privacy.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/B166ER/Desktop/Project/backenddevproject/LenaBackend/MVCApp/Views/Shared/Error.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/B166ER/Desktop/Project/backenddevproject/LenaBackend/MVCApp/Views/Shared/_ValidationScriptsPartial.cshtml]

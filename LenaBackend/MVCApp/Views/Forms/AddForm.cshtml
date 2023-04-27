@@ -1,0 +1,94 @@
+﻿@model Entity.Concrete.Form
+
+
+
+<form>
+    <div class="form-group">
+        <label asp-for="@Model.Name">Form Adı</label>
+        <input asp-for="@Model.Name" class="form-control" />
+    </div>
+
+    <div class="form-group">
+        <label asp-for="@Model.Description"> Açıklama </label>
+        <textarea asp-for="@Model.Description" class="form-control"></textarea>
+    </div>
+
+
+    <fieldset>
+
+        <legend class="text-black fw-bold mt-3">Alanlar</legend>
+        <hr class="border-3 text-primary" />
+
+        <div class="form-group" id="fields">
+                <div class="field">
+                    <div class="form-group">
+                        <input placeholder="Alan Adı" class="form-control" />
+                    </div>
+
+                    <div class="form-check">
+                        Geçerlilik : <input type="checkbox" />
+                    </div>
+
+                    <div class="form-group">
+                        <label>Veri Tütünü Seçin</label>
+                        <select class="form-control">
+                            <option value="text">Metin</option>
+                            <option value="number">Sayı</option>
+                        </select>
+                    </div>
+                </div>
+        </div>
+
+        <button type="button" class="btn btn-info mt-3" onclick="addField()">Alan Ekle</button>
+
+    </fieldset>
+
+
+    <input type="submit" class="btn btn-primary mt-3" value="Kaydet" />
+</form>
+
+@section Scripts {
+    <script>
+        function addField() {
+            var index = document.querySelectorAll(".field").length;
+            var fieldHtml = `
+                    <div class="field">
+                        <hr class="border-3 text-danger"  />
+
+                        <div class="form-group">
+                            <label>Alan Adı</label>
+                            <input asp-for="Model.Fields[${index}].Name" class="form-control" />
+                        </div>
+
+                        <div class="form-check">
+                           Geçerlilik : <input type="checkbox" />
+                        </div>
+                        <div class="form-group">
+                          <label>Veri Tütünü Seçin</label>
+                          <select class="form-control">
+                             <option value="text">Metin</option>
+                             <option value="number">Sayı</option>
+                          </select>
+                        </div>
+                    </div>
+                    
+                `;
+            document.querySelector("#fields").insertAdjacentHTML("beforeend", fieldHtml);
+        }
+    </script>
+}
+
+
+
+@*<form>
+    <div class="form-group">
+        <label for="name">Email address</label>
+        <input type="text" class="form-control" id="name" placeholder="Form Name">
+    </div>
+    <div class="form-group">
+        <label for="description">Password</label>
+        <input type="text" class="form-control" id="description" placeholder="Description">
+    </div>
+
+    <button type="submit" class="btn btn-primary mt-1">Kaydet</button>
+</form>*@
